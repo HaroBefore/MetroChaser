@@ -13,6 +13,10 @@ public class SubwayCtrl : MonoBehaviour {
         DOWN
     }
 
+    public delegate void EventSubwayHandler(SubwayCtrl subwayCtrl);
+    public event EventSubwayHandler EventSubwayArriveStation;
+    public event EventSubwayHandler EventSubwayLeaveStation;
+
     public eSubwaySide subwaySide;
     public int subwayID;
     public int stationID;
@@ -213,6 +217,7 @@ public class SubwayCtrl : MonoBehaviour {
         for (int i = 0; i < subways.Length; i++)
         {
             subways[i].OnOpenDoor(closedWaitTime, doorTime);
+            EventSubwayArriveStation(this);
         }
 
         yield return new WaitForSeconds(waitTime);
@@ -220,6 +225,7 @@ public class SubwayCtrl : MonoBehaviour {
         for (int i = 0; i < subways.Length; i++)
         {
             subways[i].OnCloseDoor(closedWaitTime, doorTime);
+            EventSubwayLeaveStation(this);
         }
         yield return new WaitForSeconds(doorTime);
     }

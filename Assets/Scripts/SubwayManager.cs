@@ -4,7 +4,19 @@ using UnityEngine;
 using DG.Tweening;
 
 public class SubwayManager : MonoBehaviour {
-    
+    public delegate void EventHandler();
+
+    public event EventHandler EventSubwayDoorOpen;
+    public event EventHandler EventSubwayDoorClose;
+
+    static SubwayManager instance;
+    public static SubwayManager Instance
+    {
+        get { return instance; }
+    }
+
+    public StationCtrl[] arrStationCtrl;
+
     public static Transform[] arrSubwayStopTop;
     public static Transform[] arrSubwayStopDown;
     GameObject[] arrGoSubway;
@@ -24,12 +36,25 @@ public class SubwayManager : MonoBehaviour {
 
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(instance.gameObject);
+            instance = null;
+        }
+
         arrSubwayStopTop = new Transform[canGenerateMaxSubwayCnt / 2];
         arrSubwayStopDown = new Transform[canGenerateMaxSubwayCnt / 2];
     }
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        GameManager.Instance.EventStartGame += OnStartGame;
+        GameManager.Instance.EventRestart += OnRestart;
+
         for (int i = 0; i < canGenerateMaxSubwayCnt / 2; i++)
         {
             arrSubwayStopTop[i] = GameObject.Find(string.Format("SubwayStopTop_{0}", i)).transform;
@@ -38,8 +63,16 @@ public class SubwayManager : MonoBehaviour {
 
         goSubwayList = GameObject.Find("SubwayList");
         MakeSubways();
+    }
 
+    void OnStartGame()
+    {
         StartCoroutine(MoveSubway());
+    }
+
+    void OnRestart()
+    {
+        instance = null;
     }
 
     IEnumerator MoveSubway()
@@ -135,7 +168,20 @@ public class SubwayManager : MonoBehaviour {
         for (int i = 0; i < arrGoSubway.Length; i++)
         {
             arrGoSubway[i].transform.parent = goSubwayList.transform;
+            arrSubwayCtrl[i].EventSubwayArriveStation += OnSubwayArriveStation;
+            arrSubwayCtrl[i].EventSubwayLeaveStation += OnSubwayLeaveStation;
         }
+    }
 
+    void OnSubwayArriveStation(SubwayCtrl subwayCtrl)
+    {
+        StationCtrl station = arrStationCtrl[subwayCtrl.stationID];
+        station.SetColliderActive(subwayCtrl.subwaySide, false);
+    }
+
+    void OnSubwayLeaveStation(SubwayCtrl subwayCtrl)
+    {
+        StationCtrl station = arrStationCtrl[subwayCtrl.stationID];
+        station.SetColliderActive(subwayCtrl.subwaySide, true);
     }
 }

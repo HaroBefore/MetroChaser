@@ -8,6 +8,11 @@ public class CameraManager : MonoBehaviour {
     Camera mainCam;
     SubwayCtrl[] subways = new SubwayCtrl[SubwayManager.totalSubwayCnt];
 
+    void Start()
+    {
+        mainCam = mainCam = Camera.main;
+    }
+
     public void OnMoveCamera(Vector3 pos, float size, float time)
     {
         StopAllCoroutines();

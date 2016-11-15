@@ -2,22 +2,71 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using HedgehogTeam.EasyTouch;
 
 public class UIManager : MonoBehaviour {
+    static UIManager instance;
+    public static UIManager Instance
+    {
+        get { return instance; }
+    }
 
     public Text textStation;
     public Text textSubway;
     public Text textSide;
+    public Text textTimer;
+
+    public ETCJoystick joystickMove;
+    public ETCButton btnAttack;
+    public ETCButton btnSpacil;
+
+    public GameObject btnGameStart;
+    public GameObject btnRestart;
 
     GameManager gameManager;
+    TimeManager timeManager;
 
-	// Use this for initialization
-	void Start () {
-        gameManager = FindObjectOfType<GameManager>();
-        gameManager.EventSetUserInfo += UpdateUI;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(instance.gameObject);
+            instance = null;
+        }
+    }
+
+    // Use this for initialization
+    void Start () {
+        gameManager = GameManager.Instance;
+        gameManager.EventStartGame += OnStartGame;
+        gameManager.EventGameOver += OnGameOver;
+        gameManager.EventSetUserInfo += OnUpdateUI;
+
+        timeManager = FindObjectOfType<TimeManager>();
+        timeManager.EventTickTimer += OnUpdateTimer;
+
+        btnGameStart.SetActive(true);
+        btnRestart.SetActive(false);
+
+        OnUpdateUI();
+        OnUpdateTimer();
 	}
 
-    void UpdateUI()
+    void OnStartGame()
+    {
+        btnGameStart.SetActive(false);   
+    }
+
+    void OnGameOver()
+    {
+        btnRestart.SetActive(true);
+    }
+
+    void OnUpdateUI()
     {
         UserInfo playerInfo = gameManager.GetPlayerInfo();
         textStation.text = "Station : " + playerInfo.stationID;
@@ -31,5 +80,14 @@ public class UIManager : MonoBehaviour {
             textSubway.text = "Subway : X";
             textSide.text = "Side : X";
         }
+    }
+
+    public void OnUpdateTimer()
+    {
+        int sec = timeManager.Sec;
+        string strSec = sec == 0 ? sec + "0" :
+            timeManager.Sec / 10 == 0 ? "0" + sec :
+            timeManager.Sec + "";
+        textTimer.text = timeManager.Min + " : " + strSec;
     }
 }
