@@ -167,6 +167,7 @@
     <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
     <Compile Include="Assets\Scripts\SubwayCtrl.cs" />
     <Compile Include="Assets\Scripts\SubwayManager.cs" />
+    <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\TransparencyAnimCtrl.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
   </ItemGroup>

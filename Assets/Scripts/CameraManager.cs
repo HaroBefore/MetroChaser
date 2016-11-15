@@ -8,16 +8,6 @@ public class CameraManager : MonoBehaviour {
     Camera mainCam;
     SubwayCtrl[] subways = new SubwayCtrl[SubwayManager.totalSubwayCnt];
 
-	// Use this for initialization
-	void Start () {
-        mainCam = Camera.main;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void OnMoveCamera(Vector3 pos, float size, float time)
     {
         StopAllCoroutines();
