@@ -29,8 +29,8 @@ public class DoorCtrl : MonoBehaviour {
     IEnumerator CloseDoor(float doorTime, float closedWaitTime)
     {
         
-        leftDoor.transform.DOLocalMoveX(-1f, doorTime);
-        rightDoor.transform.DOLocalMoveX(1f, doorTime);
+        leftDoor.transform.DOLocalMoveX(-1.2f, doorTime);
+        rightDoor.transform.DOLocalMoveX(1.2f, doorTime);
         yield return new WaitForSeconds(doorTime);
         yield return new WaitForSeconds(closedWaitTime);
     }

@@ -157,7 +157,7 @@ public class SubwayManager : MonoBehaviour {
                 arrGoSubway[idx] = Instantiate(subwayPrefab, arrSubwayStop[i % 4].position, Quaternion.Euler(new Vector3(0f, -45f, 0f))) as GameObject;
                 arrSubwayCtrl[idx] = arrGoSubway[idx].GetComponent<SubwayCtrl>();
 
-                arrSubwayCtrl[idx].subwaySide = i < canGenerateMaxSubwayCnt / 2 ? SubwayCtrl.eSubwaySide.TOP : SubwayCtrl.eSubwaySide.DOWN;
+                arrSubwayCtrl[idx].subwaySide = i < canGenerateMaxSubwayCnt / 2 ? eSubwaySide.TOP : eSubwaySide.DOWN;
                 arrSubwayCtrl[idx].stationID = i % (canGenerateMaxSubwayCnt / 2);
                 arrSubwayCtrl[idx].subwayID = idx;
 

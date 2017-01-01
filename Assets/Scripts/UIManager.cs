@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour {
     public Text textStation;
     public Text textSubway;
     public Text textSide;
+    public Text textSubwayNum;
     public Text textTimer;
 
     public ETCJoystick joystickMove;
@@ -74,6 +75,7 @@ public class UIManager : MonoBehaviour {
         {
             textSubway.text = "Subway : " + playerInfo.subwayID;
             textSide.text = "Side : " + playerInfo.subwaySide;
+            
         }
         else
         {

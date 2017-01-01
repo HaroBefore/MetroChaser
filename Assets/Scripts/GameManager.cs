@@ -8,14 +8,16 @@ public struct UserInfo
     public bool isInSubway;
     public int subwayID;
     public int stationID;
-    public SubwayCtrl.eSubwaySide subwaySide;
+    public eSubwaySide subwaySide;
+    public eSubwayNum subwayNum;
 
-    public void SetUserInfo(bool isInSubway, int subwayID, int stationID, SubwayCtrl.eSubwaySide subwaySide)
+    public void SetUserInfo(bool isInSubway, int subwayID, int stationID, eSubwaySide subwaySide, eSubwayNum subwayNum)
     {
         this.isInSubway = isInSubway;
         this.subwayID = subwayID;
         this.stationID = stationID;
         this.subwaySide = subwaySide;
+        this.subwayNum = subwayNum;
     }
 }
 
@@ -55,9 +57,9 @@ public class GameManager : MonoBehaviour {
         EventRestart += OnRestart;
     }
 
-    public void SetPlayerInfo(bool isInSubway, int subwayID, int stationID, SubwayCtrl.eSubwaySide subwaySide)
+    public void SetPlayerInfo(bool isInSubway, int subwayID, int stationID, eSubwaySide subwaySide, eSubwayNum subwayNum)
     {
-        playerInfo.SetUserInfo(isInSubway, subwayID, stationID, subwaySide);
+        playerInfo.SetUserInfo(isInSubway, subwayID, stationID, subwaySide, subwayNum);
         EventSetUserInfo();
     }
 
