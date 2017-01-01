@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -97,6 +91,33 @@
     <Reference Include="DOTweenPro">
       <HintPath>Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Plugins\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KDTree">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\KDTree.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Triangle">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Triangle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MetroChaser.Plugins.csproj">
+      <Project>{97AFA406-665D-9931-C9A1-FFF2645A4AFD}</Project>
+      <Name>MetroChaser.Plugins</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
@@ -176,6 +197,36 @@
     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCInput.cs" />
     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCJoystick.cs" />
     <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scenes\Tests\DistanceFogStatic\DistanceFogStatic.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\CameraOverlay.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\CubeMover.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\CustomLightingManager.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\DirectionalLightManager.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\DisableRendererOnMouseDown.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\DistanceLight.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\EditModeGridSnap.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\EnableCameraDepthTexture.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\Fps.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\FrameRate.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\MarvelousBloom.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\OceanCreator.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\ObjectRotator.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\OceanWaver.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\ScreenTextureBlend.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\SimpleRotator.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\Splasher.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\UVHeightGenerator.cs" />
+    <Compile Include="Assets\MarvelousTechniques\Scripts\UVLayoutGenerator.cs" />
+    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Constant.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Enum.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_IconUtility.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_SceneMeshRender.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
     <Compile Include="Assets\Scripts\AttackCtrl.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Scripts\DoorCtrl.cs" />
@@ -211,6 +262,65 @@
     <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
     <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CameraOverlay.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLighting.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingDistanceLight.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingHardFog.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingMaster.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingRS.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimple.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLight.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLightRS.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleRS.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFog.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFogRS.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFog.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFogAlpha.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\DefaultTexture.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\FlagWave.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\FloatingLeaf.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Flower.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\Bloom.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\ScreenTextureBlend.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBG.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel3Color.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientImageBG.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Marvelous.cginc" />
+    <None Include="Assets\MarvelousTechniques\Shaders\OceanDepth.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\OceanOpaque.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\OneColor.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\TextureAnimationTransparent.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\TextureBG.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Transparent.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Transparent2.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditive.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditiveFG.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Vignette.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\WaterBox.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\WaterPool.shader" />
+    <None Include="Assets\MarvelousTechniques\Shaders\Waterfall.shader" />
+    <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
+    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_DebugUVs.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\ProCore\ProBuilder\readme.txt" />
+    <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+    <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
