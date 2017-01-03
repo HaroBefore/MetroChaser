@@ -76,7 +76,7 @@ public class Network : MonoBehaviour {
 
 	public void ConnectServer()
 	{
-		mWebSocket	= new WebSocket ("ws://nanoapps.synology.me:8080/MetroChaser/Server");
+		mWebSocket	= new WebSocket ("ws://nanoapps.synology.me:7070/MetroChaser/Server");
 
 		mWebSocket.OnOpen += OnOpen;
 		mWebSocket.OnClose += OnClose;
@@ -90,7 +90,10 @@ public class Network : MonoBehaviour {
 	{
 		JsonData	json	= new JsonData ();
 		json ["flag"] = (int)eResponseFlag.LOGIN;
-		json ["mac"] = mMacAddress;
+
+		JsonData	user	= new JsonData ();
+		user ["mac"]	= mMacAddress;
+		json ["user"]	= user;
 
 		JsonData	array	= new JsonData ();
 
