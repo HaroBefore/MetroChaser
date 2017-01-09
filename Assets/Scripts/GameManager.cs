@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using LitJson;
 
 public struct UserInfo
 {
@@ -56,6 +57,27 @@ public class GameManager : MonoBehaviour {
         EventStartGame += OnStartGame;
         EventGameOver += OnGameOver;
         EventRestart += OnRestart;
+
+        network = GetComponent<Network>();
+        //network.ConnectServer();
+        StartCoroutine(SendSomething());
+    }
+
+    IEnumerator SendSomething()
+    {
+        //yield return null;
+        yield return new WaitForSeconds(2f);
+        Debug.Log("SendEnd");
+
+        JsonData data;
+        data = new JsonData();
+        data["Test"] = "tset";
+        data["aaa"] = 1;
+        Debug.Log("send");
+        Debug.Log("SendSomething : " + data.ToJson());
+        network.OnSendMsg(data);
+
+        Debug.Log("SendEnd");
     }
 
     public void SetPlayerInfo(bool isInSubway, int subwayID, int stationID, eSubwaySide subwaySide, eSubwayNum subwayNum)

@@ -27,7 +27,7 @@ public class NetworkTest : MonoBehaviour {
         data = new JsonData();
         data["Test"] = "tset";
         data["aaa"] = 1;
-        Debug.Log("send");
+        Debug.Log(data.ToJson());
         network.OnSendMsg(data.ToJson());
     }
 }

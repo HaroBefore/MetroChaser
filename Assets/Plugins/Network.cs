@@ -40,6 +40,7 @@ public class Network : MonoBehaviour {
 		mConnect = false;
 		mMacAddress	= SystemInfo.deviceUniqueIdentifier;
 		mWebSocket	= null;
+		this.ConnectServer ();
 	}
 	
 	// Update is called once per frame
@@ -60,26 +61,32 @@ public class Network : MonoBehaviour {
 
 	public void OnUserMsg(string mac, string msg)
 	{
+        Debug.Log("OnUserMsg : " + mac);
+        Debug.Log("msg : " + msg);
 	}
 
-	public void OnSendMsg(string msg)
+	public void OnSendMsg(JsonData msg)
 	{
 		if (mWebSocket != null) {
 			if (mWebSocket.ReadyState == WebSocketState.Open) {
 				JsonData	json	= new JsonData ();
 				json ["flag"]	= (int)eResponseFlag.MSG;
 				json ["msg"] 	= msg;
-				mWebSocket.Send (json.ToString ());
-			}
-		}
+				mWebSocket.Send (json.ToJson ());
+                Debug.Log("json : " + json.ToJson());
+            }
+        }
 	}
 
 	public void ConnectServer()
 	{
-		mWebSocket	= new WebSocket ("ws://nanoapps.synology.me:7070/MetroChaser/Server");
+        Debug.Log("ConnectServer");
+        mWebSocket	= new WebSocket ("ws://nanoapps.synology.me:7070/MetroChaser/Server");
 
-		mWebSocket.OnOpen += OnOpen;
-		mWebSocket.OnClose += OnClose;
+        //mWebSocket = new WebSocket("ws://172.30.1.15:8080/MetroChaser/Server");
+
+        mWebSocket.OnOpen += OnOpen;
+		mWebSocket.OnClose += OnClose; ;
 		mWebSocket.OnMessage += OnMessage;
 		mWebSocket.OnError += OnError;
 
@@ -88,30 +95,27 @@ public class Network : MonoBehaviour {
 
 	private void OnOpen(object sender, EventArgs e)
 	{
-		JsonData	json	= new JsonData ();
-		json ["flag"] = (int)eResponseFlag.LOGIN;
-
-		JsonData	user	= new JsonData ();
-		user ["mac"]	= mMacAddress;
-		json ["user"]	= user;
-
-		JsonData	array	= new JsonData ();
-
-		string[] sArray = new string[mlistUserMacAddress.Count];
-		mlistUserMacAddress.CopyTo(sArray, 0);
-
-		for ( int iNum = 0; iNum < mlistUserMacAddress.Count; iNum++ )
-		{
-			array.Add (sArray [iNum]);
-		}
-		json ["list"]	= array;
-		mWebSocket.Send (json.ToString());
+        Debug.Log("OnOpen");
+        StartCoroutine(CoLogin());
 	}
+
+    IEnumerator CoLogin()
+    {
+        yield return new WaitForSeconds(1f);
+        Debug.Log("CoLogin");
+        Login();
+    }
 
 	private void OnMessage(object sender, MessageEventArgs e)
 	{
-		JsonData	json	= new JsonData (e.Data);
-		int			flag	= int.Parse( json ["flag"].ToJson ());
+        Debug.Log(e.Data.ToString());
+
+        string str1 = e.Data.ToString();
+        string str2 = str1.Replace("\\\"", "\"");
+
+        Debug.Log(str2);
+        JsonData json	= new JsonData (str2);
+		int			flag	= int.Parse( json ["flag"].ToString ());
 
 		switch (flag) {
 		case (int)eRequestFlag.USER_LOGIN:
@@ -151,5 +155,33 @@ public class Network : MonoBehaviour {
 
 	private void OnClose(object sender, CloseEventArgs e)
 	{
+        Debug.Log("OnClose");
 	}
+
+    public void Login()
+    {
+        Debug.Log("Login");
+        JsonData json = new JsonData();
+        json["flag"] = (int)eResponseFlag.LOGIN;
+
+        JsonData user = new JsonData();
+        user["mac"] = mMacAddress;
+        json["user"] = user;
+
+        JsonData array = new JsonData();
+
+        if (mlistUserMacAddress.Count > 0)
+        {
+
+            string[] sArray = new string[mlistUserMacAddress.Count];
+            mlistUserMacAddress.CopyTo(sArray, 0);
+
+            for (int iNum = 0; iNum < mlistUserMacAddress.Count; iNum++)
+            {
+                array.Add(sArray[iNum]);
+            }
+        }
+        //json ["list"]	= array;
+        mWebSocket.Send(json.ToJson());
+    }
 }
