@@ -120,12 +120,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MetroChaser.Plugins.csproj">
-      <Project>{97AFA406-665D-9931-C9A1-FFF2645A4AFD}</Project>
-      <Name>MetroChaser.Plugins</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
     <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
@@ -241,6 +235,8 @@
     <Compile Include="Assets\Scripts\EnterPlaceCtrl.cs" />
     <Compile Include="Assets\Scripts\Enums.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Network.cs" />
+    <Compile Include="Assets\Scripts\NetworkManager.cs" />
     <Compile Include="Assets\Scripts\NetworkTest.cs" />
     <Compile Include="Assets\Scripts\OffsetScrollCtrl.cs" />
     <Compile Include="Assets\Scripts\PhysicsMoveCtrl.cs" />

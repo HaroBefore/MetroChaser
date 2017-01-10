@@ -9,10 +9,28 @@ using LitJson;
 public class Network : MonoBehaviour {
 	private int mCount;
 	private bool mConnect;
+    public bool IsConnect
+    {
+        get { return mConnect; }
+    }
+    private bool mLogin;
+    public bool IsLogin
+    {
+        get { return mLogin; }
+    }
 	private WebSocket	mWebSocket;
 	private string	mMacAddress;
+    public string MacAddress
+    {
+        get { return mMacAddress; }
+    }
 
 	public LinkedList< string >		mlistUserMacAddress	= new LinkedList< string >();
+
+    public delegate void UserMsgDelegate(string mac, JsonData msg);
+    public event UserMsgDelegate EventUserMsg;
+    public event Action<string> EventUserLogin;
+    public event Action<string> EventUserLogout;
 
 	enum eRequestFlag
 	{
@@ -38,7 +56,9 @@ public class Network : MonoBehaviour {
 	void Start () {
 		mCount	= 0;
 		mConnect = false;
-		mMacAddress	= SystemInfo.deviceUniqueIdentifier;
+        mLogin = false;
+        //mMacAddress	= SystemInfo.deviceUniqueIdentifier;
+        mMacAddress = System.Guid.NewGuid().ToString();
 		mWebSocket	= null;
 		this.ConnectServer ();
 	}
@@ -59,10 +79,12 @@ public class Network : MonoBehaviour {
 		}
 	}
 
-	public void OnUserMsg(string mac, string msg)
+	public void OnUserMsg(string mac, JsonData msg)
 	{
-        Debug.Log("OnUserMsg : " + mac);
-        Debug.Log("msg : " + msg);
+        if(EventUserMsg != null)
+        {
+            EventUserMsg(mac, msg);
+        }
 	}
 
 	public void OnSendMsg(JsonData msg)
@@ -108,13 +130,8 @@ public class Network : MonoBehaviour {
 
 	private void OnMessage(object sender, MessageEventArgs e)
 	{
-        Debug.Log(e.Data.ToString());
 
-        string str1 = e.Data.ToString();
-        string str2 = str1.Replace("\\\"", "\"");
-
-        Debug.Log(str2);
-        JsonData json	= new JsonData (str2);
+        JsonData json	= JsonMapper.ToObject(e.Data.ToString());
 		int			flag	= int.Parse( json ["flag"].ToString ());
 
 		switch (flag) {
@@ -122,8 +139,12 @@ public class Network : MonoBehaviour {
 			{
 				string	mac = json ["mac"].ToString ();
 				mlistUserMacAddress.AddLast (mac);
-			}
-			break;
+
+                    mLogin = true;
+                    if(EventUserLogin != null)
+                        EventUserLogin(mac);
+                }
+                break;
 		case (int)eRequestFlag.USER_LOGOUT:
 			{
 				string	mac = json ["mac"].ToString ();
@@ -139,11 +160,15 @@ public class Network : MonoBehaviour {
 						mlistUserMacAddress.Remove (str);
 					}
 				}
+
+                    mLogin = false;
+                    if (EventUserLogout != null)
+                        EventUserLogout(mac);
 			}
 			break;
 		case (int)eRequestFlag.USER_MSG:
 			{
-				this.OnUserMsg(json["mac"].ToString(), json["msg"].ToString());
+				this.OnUserMsg(json["mac"].ToString(), json["msg"]);
 			}
 			break;
 		}
@@ -151,10 +176,13 @@ public class Network : MonoBehaviour {
 
 	private void OnError(object sender, ErrorEventArgs e)
 	{
+        Debug.Log("OnError");
 	}
 
 	private void OnClose(object sender, CloseEventArgs e)
 	{
+        mLogin = false;
+        mConnect = false;
         Debug.Log("OnClose");
 	}
 

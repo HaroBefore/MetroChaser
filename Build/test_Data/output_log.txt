@@ -45,31 +45,657 @@ Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed
 Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll into Unity Child Domain
-- Completed reload, in  0.038 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.196245 ms
+UnloadTime: 1.451456 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: a64 -> priority: 1 
-  Thread -> id: 25b4 -> priority: 1 
-SendEnd
+  Thread -> id: 1ee8 -> priority: 1 
+  Thread -> id: 1914 -> priority: 1 
+CoLogin
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-send
+Login
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-{"flag":103,"msg":"{\"Test\":\"tset\",\"aaa\":1}"}
+Login Complete
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-SendEnd
+NetworkManager OnSendMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+json : {"flag":103,"msg":{"msgType":0}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnUserMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnUserMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Receive Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Cube(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970M (ID=0x13d8)
+    Vendor:   NVIDIA
+    VRAM:     3040 MB
+    Driver:   21.20.16.4534
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.135603 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ba4 -> priority: 1 
+  Thread -> id: 440 -> priority: 1 
+CoLogin
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnSendMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+json : {"flag":103,"msg":{"msgType":0}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnUserMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.Nen.etw ornMa: 51)ag
+
+er OnUserMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Receive Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Cube(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login Complete
+ 
+(Filename: C:/buildslLve/gini ty/build/
+ 
+(Fiflenamee: C:/bd/uomldslame/n/runuinity/build/arntifacts/ge Lrated/1)
+
+common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManageM anUger OnUseg
+r
+(FilenMsme
+ 
+:FiClenamed Cl:/buility/build/asrlive/fnacts/gild/areifectats//cogmeneruntime/Deauged/ndommingrs.tgen.cpbpg Line: 51)n.
+cpp Liniee Login 
+ 
+(5il1n
+a
+me:ReceivildelaLogiv
+ uni
+(Fitey/mebuC:/iuilddslrtifaatve/unitytbudild/artifacts/genebugBratei/cngmong/r.cnpp L/Deiuge: 51B
+
+ndings.gen.cpp Line: u51)Clone)
+ 
+(Filename: C:/buildslave/unity/buubi(ld/art
+ 
+(Fileactn/aeneratee: d//buomldsmove//unitye/D/bugild/Brtnifngs.gen.cpp Linea cts/
+g
+enerated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login CLmpogin 
+ 
+(FClmpleenae
+ 
+mFe: C:mbuil: Csla:e/build/blaved/ar/infacts/generattfecds/generated/come/DebugBindings.gen.dings.gen.cpp Licepp Lin
+e
+: 51)
+
+NetworkMaNagerwOoUserMsag
+er
+ OnUename: C:/b
+ui
+(ldleave/unity/bnild/art:/buils/generated/uncomm/on/rintlme//DebuagBindings.tgenc.cmpp Lunti 51)
+
+bugRecdenis.gen.cn
+ 
+pp Lenanem e: C
+:
+/buRlescevivue tyogin
+ 
+(Frtifacmt: /Ce/neratsldave/uon/rtyn/ibeuild/arinifings.gen.eratLed/:commo
+n
+/runtime/DebugBindiubn(Cgon.e)ncpp
+(Filename: C:/b
+
+uildslave/uniCube(Cld/aonefac
+t
+(/gileeameeated//ommon/buuildslaveu/Bindiugnity/buil Lined 51rt
+
+facts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loggoutu Coompletee
+ 
+
+
+(Filename: C:/bubuildsialdslave//nitiy/burlt/artifactf/acts/geedne/atomd/common/runttimi/me/DebugBinnsdings.gpn.c pLine::  151
+)
+
+
+Login ComLleoe
+ 
+(Filenate
+m
+(:Filenamles lave/unity/build/artifalctas/ifagts/gentedacted/common/runtime/DebugBindings.gen.inc:p Line
+:
+ 51)
+
+NetworkManager OnUseNMsg
+ 
+(Filenamt: Cw/ouilrskaveMunanyger /bUildsartiMsga
+ 
+(Fi/lename: d/C:/mon/rbntimie/Debug/Binitnys.ge/.cuild/iae: ti1)
+
+ts/egeneve tegico
+ onFiruename: eCDe:ugBbundlings.genn.cy/buipp/arLtifa cts
+
+/egeneratedin
+ 
+(/iloenane:/runtime/Deave/Binnty/iuiln/artifgcs.gen.cpp Line: mon/5u1)
+
+me/DebugBindiCguse(Cln.cpp L
+in
+e: 51)ame 
+C:/buildslave/unity/buiCd/be(Clone)
+ti
+facletas/gene/buirdsltadve/umoni/runtiime/DebuagBitdings.gnnecpated Lomne:on/1r
+time/DebugBindings.gen.cpp Line: 51)
+
+Loggout Coommletele
+ 
+(til
+e
+(Filnnamme: C: buildslaCe/u:i/buiuild/lrtsiavacte//eueratedb/commaon/runtsime/DebtugBinmdings.ntime/geeug.cppBLiindings
+.
+gen.cpp Line: 51)
+
+LoLiogin Comple
+ 
+(
+ 
+(FileFaielena/e: C:/bbilildslve/unitavbe/ind/iry/ibacts/generated/coemonnruratedme/DecbumoBinninrun.gime/cpepu Line: 51)
+e
+n.cpp Line: 51)
+
+NNtworkMkMannageg On UnUserMsg
+
+ 
+
+(Filename: :/buiCd:lave/dunivty/biuilb/aldtifraifccts/gen/geeerattedecd/common/riuntDibue/DgbuindingBisdings.geen.cpcp piLine:: 51 
+
+51)R
+e
+ceiveeceive Loogin
+ 
+ 
+(ilFilename: e:/bameu ildslildslavveuuniity/tui/ld/ad/tafrtti/factsatednercommon/aued/nomime/Debug/ruintiime.gDen.bup LigeBin1)
+
+dings.gen.cpp Line: 51)
+
+Cube(Clone)
+ 
+(Filename: C:/bCilds(Clonve)
+ 
+(Filbuild/mea C:rbtildilave/actnis/genelratedicommon//untimeat/D/eommoindings.egen.cpp Line: 51)
+c
+p Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970M (ID=0x13d8)
+    Vendor:   NVIDIA
+    VRAM:     3040 MB
+    Driver:   21.20.16.4534
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.181035 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1cdc -> priority: 1 
+  Thread -> id: 36d8 -> priority: 1 
+CoLogin
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login C mplmplte
+ 
+
+(
+(Filenaname: C:/iluiddslave/unity/build/artifaccts/geneatetdd/cocmomn/rn/runt/Dime/Diedings.gen.cpp Line: 51ne: )
+
+
+
+Login Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnSendMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+json : {"flag":103,"msg":{"msgType":0}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetNorkManagetwOorkeanMage
+r 
+OnUserMame
+:
+ C:/bNimtwerkMa:a/er CntybrMsg
+ /
+(uiuelimlldve//buildslaue/untyiyfiludlt/a/tifactns/geneaatedfcommon/runtiteeo/Deob/roB/trdinDgtbmu/gcpiugBnnnd:nes.)
+
+cn.p pp nine: 51) 5
+1
+)
+
+ceiReceiveiLn
+ in
+(F
+i
+(Filename: C:/buildslave/unity/build/artifacteneratretdd/commoncrumntnime/DimeeDeugugBiinings.gen.gepp Line:c 5 Lin1e
+
+: 51)
+
+Cube(Clone(elon
+ 
+(
+F
+(Fileame: C:/bme: uilbudslava/uvit/uni/built/a/btiuaild/crtisfgeneratacts/mgen/eratedmcommo/De/runbigBindmng/Desu.Biendicpp Line.: 5 Li
+
+ne: 51)
+
+LLgogout Compte
+ t
+(
+F
+(leinenamee: C:L C:/buiildllCsvemplvte
+ 
+u/iue/binad/aymibuiCcls/denauierateldclommratunn/edttoye/bumbnugrdundrtimt/.fbengBcpendiLegra. g1eed
+/
+no.cpn Lrintie: 5Deb
+
+gBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+LogiL Cogin Cmmpplet
+ 
+(
+(Flenalen: me: builCsla:ebuildnilty/buinitarty/abtsugeneralde//artifacts/generated/comminosngeruntipme/Deb 5u)
+
+indings.gen.cpp Line: 51)
+
+NeNworkManagera OrU erMsg
+ 
+gFi
+ 
+(Faml: am:/bueldslavbeild/lanve/ubniity/build/ts/rtiefacttsd/comm/n/eunerated/cogmmon/run.time/ppDLibne: 51)
+
+s.gen.cpp Line: n
+5
+1)
+
+lecenive LCgin
+ il
+dslave/muniC:/bbuild/aveaurtiy/actb/ueneiatedarcommaons/runetiatedDeboumBiondinns.geenDebug.inppi Line: 51pp Lin): 
+
+1)
+
+CCbe(Cluneb
+ 
+(F(lCnaone)
+  C:/b
+uilislename: C:/bu/ld/auildslavr/utitfy/bsugild/artd/cimfacts/genee/DeburBitedncomngs.gmon.crpp Lie/DebunBendi51)
+
+gs.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970M (ID=0x13d8)
+    Vendor:   NVIDIA
+    VRAM:     3040 MB
+    Driver:   21.20.16.4534
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.033 seconds
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.101233 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\Build\test_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2c4c -> priority: 1 
+  Thread -> id: 1d34 -> priority: 1 
+CoLogin
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logiin Coopmplet
+ 
+ 
+(
+iFlleenae:  C:/buildslive/ulaite/yn/builduilardi/acts/aenterated//coemrn/reuntime/DebuugBme/DebugBinen.cpp Lis.ge: 51p Li)e
+:
+ 51)
+
+Login Complete
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManager OnSendMsg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+json : {"flag":103,"msg":{"msgType":0}}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NetworkManagerNOtwosrkMsg
+ 
+(FilanageetworkManagrr OnOserMsg
+sderasgen/un
+: C/(Filillaame: C:/bvieds/aveud/nrtiiactt/gyne/tibad/commo/artifime//geugrated/rogsognc.rpunnrunti m1)D
+
+bBgRindigsggLenec
+.c
+(Fpl n im1e:
+
+51)
+
+ildRlece/uniey/build/ar
+ a(Fs/lename: C:/bouildslaveim/unity/build/asrtifacts /generate
+d
+/common/runtime/Cebbu(gBine)i
+ 
+(Filename: C:/b51)
+
+dslave/uniCubeuild/artifacte)g n
+rFiede/aome: C:/bntumeiDldslave/unns.tyen.cild/airtif51c
+s
+/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logogout Complet
+e
+ 
+(Finleename: C:/builds/lave/unity/buLtdgiruac tam/pselenre
+ 
+(d/mlenn/reun iie//bDeildBBinliines.gnit.ccpi  /iaeet i11a
+t
+s
+/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout CompleLe
+ 
+(Filenamgo: t Compillslevte
+ ity
+(Filuename: C:a/buildseraave/unied/common/tuy/build/bagrtidfacts/ge.cnerLine: 51)a
+
+ted/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logout Complete
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

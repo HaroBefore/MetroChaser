@@ -180,10 +180,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MetroChaser.Plugins.csproj">
-      <Project>{97AFA406-665D-9931-C9A1-FFF2645A4AFD}</Project>
-      <Name>MetroChaser.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="MetroChaser.csproj">
       <Project>{49F8A0CC-F1A7-0EAF-A3F4-2A54AA8CC9E3}</Project>
       <Name>MetroChaser</Name>
