@@ -17,3 +17,10 @@ public enum eSubwaySide
     TOP,
     DOWN
 }
+
+public enum eNetworkMsg
+{
+    NetworkLogin,
+    NetworkLogout,
+    NetworkPlaying,
+}

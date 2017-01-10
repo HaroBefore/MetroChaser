@@ -183,6 +183,10 @@ public class Network : MonoBehaviour {
 	{
         mLogin = false;
         mConnect = false;
+        JsonData data = new JsonData();
+        data["msgType"] = (int)eNetworkMsg.NetworkLogout;
+        OnSendMsg(data);
+
         Debug.Log("OnClose");
 	}
 
