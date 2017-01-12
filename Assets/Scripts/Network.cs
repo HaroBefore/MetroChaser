@@ -95,7 +95,6 @@ public class Network : MonoBehaviour {
 				json ["flag"]	= (int)eResponseFlag.MSG;
 				json ["msg"] 	= msg;
 				mWebSocket.Send (json.ToJson ());
-                Debug.Log("json : " + json.ToJson());
             }
         }
 	}

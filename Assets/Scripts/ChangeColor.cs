@@ -12,7 +12,6 @@ public class ChangeColor : MonoBehaviour {
 	void Start () {
         bodyRenderer = transform.FindChild("Model").GetComponent<MeshRenderer>();
         headRenderer = transform.FindChild("Model").FindChild("Head").GetComponent<MeshRenderer>();
-        StartCoroutine(test());
 	}
     
     IEnumerator test()

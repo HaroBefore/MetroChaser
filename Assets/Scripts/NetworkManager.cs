@@ -6,7 +6,7 @@ using LitJson;
 public class NetworkManager : MonoBehaviour {
     Network network;
     PlayerCtrl owner;
-    List<PlayerCtrl> enemyList;
+    List<EnemyCtrl> enemyList;
     public GameObject enemyPrefab;
 
     Dictionary<string, Queue<JsonData>> msgMap;
@@ -16,7 +16,7 @@ public class NetworkManager : MonoBehaviour {
         msgMap = new Dictionary<string, Queue<JsonData>>();
         network = GetComponent<Network>();
         owner = GameObject.Find("Player").GetComponent<PlayerCtrl>();
-        enemyList = new List<PlayerCtrl>();
+        enemyList = new List<EnemyCtrl>();
 
         network.EventUserMsg += OnUserMsg;
         network.EventUserLogin += OnUserLogin;
@@ -35,7 +35,6 @@ public class NetworkManager : MonoBehaviour {
     {
         yield return new WaitForSeconds(0.2f);
         OnSendMsg(eNetworkMsg.NetworkPlaying);
-        Debug.Log("playing");
         StartCoroutine(CoSend());
     }
 
@@ -57,7 +56,9 @@ public class NetworkManager : MonoBehaviour {
         }
         Queue<JsonData> queue = new Queue<JsonData>();
         msgMap.Add(mac, queue);
+#if UNITY_EDITOR
         Debug.Log("Login Complete");
+#endif
     }
 
     public void OnUserLogout(string mac)
@@ -78,14 +79,17 @@ public class NetworkManager : MonoBehaviour {
             Debug.Log("존재하지 않는 mac이 로그아웃 했습니다");
             return;
         }
+#if UNITY_EDITOR
         Debug.Log("Logout Complete");
+#endif
     }
 
     public void OnSendMsg(eNetworkMsg networkEvent)
     {
         JsonData data = new JsonData();
+#if UNITY_EDITOR
         Debug.Log("NetworkManager OnSendMsg");
-
+#endif
         switch (networkEvent)
         {
             case eNetworkMsg.NetworkLogin:
@@ -106,6 +110,7 @@ public class NetworkManager : MonoBehaviour {
                     data["msgType"] = (int)eNetworkMsg.NetworkPlaying;
                     data["x"] = (int)(owner.transform.position.x * 100) * 0.01;
                     data["z"] = (int)(owner.transform.position.z * 100) * 0.01;
+                    data["yAngle"] = owner.ModelTransform.eulerAngles.y;
                 }
                 break;
             default:
@@ -134,22 +139,26 @@ public class NetworkManager : MonoBehaviour {
                 {
                     case eNetworkMsg.NetworkLogin:
                         {
+#if UNITY_EDITOR
                             Debug.Log("Receive Login");
-                            PlayerCtrl enemy = Instantiate(enemyPrefab, Vector3.zero, Quaternion.identity).GetComponent<PlayerCtrl>();
+#endif
+                            EnemyCtrl enemy = Instantiate(enemyPrefab, new Vector3(-200f, 0f, 0f), Quaternion.identity).GetComponent<EnemyCtrl>();
                             enemyList.Add(enemy);
                             enemy.MacAddress = it.Current;
                         }
                         break;
                     case eNetworkMsg.NetworkLogout:
                         {
+#if UNITY_EDITOR
                             Debug.Log("Receive Logout");
+#endif
                             for (int i = 0; i < enemyList.Count; i++)
                             {
                                 if(it.Current == enemyList[i].MacAddress)
                                 {
-                                    PlayerCtrl player = enemyList[i];
+                                    EnemyCtrl enemy = enemyList[i];
                                     enemyList.RemoveAt(i);
-                                    Destroy(player.gameObject);
+                                    Destroy(enemy.gameObject);
                                     break;
                                 }
                             }
@@ -162,14 +171,20 @@ public class NetworkManager : MonoBehaviour {
                         break;
                     case eNetworkMsg.NetworkPlaying:
                         {
-                            PlayerCtrl enemy = null;
+                            EnemyCtrl enemy = null;
+#if UNITY_EDITOR
                             Debug.Log("Receive Playing");
+#endif
                             for (int i = 0; i < enemyList.Count; i++)
                             {
                                 if(it.Current == enemyList[i].MacAddress)
                                 {
                                     enemy = enemyList[i];
-                                    enemy.transform.position = new Vector3(float.Parse(msg["x"].ToString()), 0f, float.Parse(msg["z"].ToString()));
+                                    //enemy.transform.position = new Vector3(float.Parse(msg["x"].ToString()), 0f, float.Parse(msg["z"].ToString()));
+                                    float x = float.Parse(msg["x"].ToString());
+                                    float z = float.Parse(msg["z"].ToString());
+                                    float yAngle = float.Parse(msg["yAngle"].ToString());
+                                    enemy.EnqueuePosAndRot(x, z, yAngle);
 
                                     break;
                                 }

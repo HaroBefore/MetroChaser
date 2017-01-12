@@ -10,9 +10,15 @@ public class PlayerCtrl : MonoBehaviour {
         set { mMacAddress = value; }
     }
 
+    Transform modelTransform;
+    public Transform ModelTransform
+    {
+        get { return modelTransform; }
+    }
+
     // Use this for initialization
     void Start () {
-        
+        modelTransform = transform.FindChild("Model");
 	}
 	
 	// Update is called once per frame
