@@ -10,6 +10,7 @@ public class NetworkManager : MonoBehaviour {
     public GameObject enemyPrefab;
 
     Dictionary<string, Queue<JsonData>> msgMap;
+    bool isReceiveInitData = false;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,9 @@ public class NetworkManager : MonoBehaviour {
         network.EventUserMsg += OnUserMsg;
         network.EventUserLogin += OnUserLogin;
         network.EventUserLogout += OnUserLogout;
+
+        network.ConnectServer();
+
         StartCoroutine(CoLoginSend());
 	}
 
@@ -113,6 +117,20 @@ public class NetworkManager : MonoBehaviour {
                     data["yAngle"] = owner.ModelTransform.eulerAngles.y;
                 }
                 break;
+            case eNetworkMsg.NetworkInitInfoReq:
+                {
+                    Debug.Log("Send InitInfoReq");
+                    data["msgType"] = (int)eNetworkMsg.NetworkInitInfoReq;
+                }
+                break;
+            case eNetworkMsg.NetworkInitInfoRes:
+                {
+                    Debug.Log("Send InitInfoRes");
+                    data["msgType"] = (int)eNetworkMsg.NetworkInitInfoRes;
+                    //보내야될 데이터
+
+                }
+                break;
             default:
                 break;
         }
@@ -145,6 +163,13 @@ public class NetworkManager : MonoBehaviour {
                             EnemyCtrl enemy = Instantiate(enemyPrefab, new Vector3(-200f, 0f, 0f), Quaternion.identity).GetComponent<EnemyCtrl>();
                             enemyList.Add(enemy);
                             enemy.MacAddress = it.Current;
+
+                            if(network.mlistUserMacAddress.Count == 1)
+                            {
+                                break;
+                            }
+
+                            OnSendMsg(eNetworkMsg.NetworkInitInfoReq);
                         }
                         break;
                     case eNetworkMsg.NetworkLogout:
@@ -189,6 +214,28 @@ public class NetworkManager : MonoBehaviour {
                                     break;
                                 }
                             }
+                        }
+                        break;
+                    case eNetworkMsg.NetworkInitInfoReq:
+                        {
+#if UNITY_EDITOR
+                            Debug.Log("Receive InitInfoReq");
+#endif
+                            OnSendMsg(eNetworkMsg.NetworkInitInfoRes);
+
+                        }
+                        break;
+                    case eNetworkMsg.NetworkInitInfoRes:
+                        {
+                            if (isReceiveInitData == true)
+                                break;
+                            isReceiveInitData = true;
+
+#if UNITY_EDITOR
+                            Debug.Log("Receive InitInfoRes");
+#endif
+
+
                         }
                         break;
                     default:

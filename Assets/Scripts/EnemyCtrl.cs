@@ -16,11 +16,27 @@ public class EnemyCtrl : MonoBehaviour {
         get { return modelTransform; }
     }
 
-    new Rigidbody rigidbody;
+    public new Rigidbody rigidbody;
     Queue<Vector3> posQueue;
+    public Queue<Vector3> PosQueue
+    {
+        get { return posQueue; }
+    }
     Queue<float> yAngleQueue;
     Vector3 desirePos;
+    public Vector3 DesirePos
+    {
+        get { return desirePos; }
+    }
     Vector3 desireRot;
+
+    [HideInInspector]
+    public ChangeColor changeColor;
+    public float turnColorDelay = 3f;
+
+    State<EnemyCtrl> currentState;
+    [HideInInspector]
+    public bool isMoving;
 
     private void Awake()
     {
@@ -32,15 +48,41 @@ public class EnemyCtrl : MonoBehaviour {
     void Start () {
         modelTransform = transform.FindChild("Model");
         rigidbody = GetComponent<Rigidbody>();
+        changeColor = GetComponent<ChangeColor>();
         desirePos = transform.position;
         desirePos.y = 0f;
         rigidbody.position = new Vector3(-200f, 0f, 0f);
+        beforePos = transform.position;
+
+        StartCoroutine(CoIsMovingCheck());
+        ChangeState(StateEnemyIdle.Instance);
 	}
-	
+
+    Vector3 beforePos;
+    IEnumerator CoIsMovingCheck()
+    {
+        yield return new WaitForSeconds(0.1f);
+        if (beforePos == transform.position)
+            isMoving = false;
+        else
+            isMoving = true;
+        beforePos = transform.position;
+        StartCoroutine(CoIsMovingCheck());
+    }
+
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (currentState != null)
+            currentState.Execute(this);
+    }
+
+    public void ChangeState(State<EnemyCtrl> state)
+    {
+        if (currentState != null)
+            currentState.Exit(this);
+        currentState = state;
+        currentState.Enter(this);
+    }
 
     private void FixedUpdate()
     {

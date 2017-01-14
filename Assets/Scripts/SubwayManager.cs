@@ -34,6 +34,8 @@ public class SubwayManager : MonoBehaviour {
     public float timeToDoor = 1f;
     public float timeToWaitDoor = 1f;
 
+
+
     void Awake()
     {
         if (instance == null)

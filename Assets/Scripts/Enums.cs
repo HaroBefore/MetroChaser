@@ -18,9 +18,17 @@ public enum eSubwaySide
     DOWN
 }
 
+public enum eSubwayState
+{
+    SubwayMoving,
+
+}
+
 public enum eNetworkMsg
 {
     NetworkLogin,
     NetworkLogout,
     NetworkPlaying,
+    NetworkInitInfoReq,
+    NetworkInitInfoRes,
 }

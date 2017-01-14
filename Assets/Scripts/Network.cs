@@ -60,7 +60,7 @@ public class Network : MonoBehaviour {
         //mMacAddress	= SystemInfo.deviceUniqueIdentifier;
         mMacAddress = System.Guid.NewGuid().ToString();
 		mWebSocket	= null;
-		this.ConnectServer ();
+		//this.ConnectServer ();
 	}
 	
 	// Update is called once per frame
