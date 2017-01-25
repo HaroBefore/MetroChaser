@@ -73,256 +73,282 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Plugins\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KDTree">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\KDTree.dll</HintPath>
+    <Reference Include="Triangle">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\Triangle.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
     </Reference>
-    <Reference Include="Triangle">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Triangle.dll</HintPath>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KDTree">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\KDTree.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\ThirdPartyAssets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\ThirdPartyAssets\Plugins\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraUI.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\CubeSelect.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\RTSCamera.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\Ball.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\BallRunPlayer.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\LoadExamples.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\FingerTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\MutliFingersScreenTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DoubleTapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DragMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\LongTapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\Swipe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TouchMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\PinchMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TooglePickMethodUI.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwistMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDoubleTapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDragMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoLongTapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoSwipe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTapMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTouchMe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\ETWindow.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\GlobalEasyTouchEvent.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UICompatibility.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UIWindow.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIDrag.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIPinch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UITwist.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\RTS_NewSyntaxe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\SimpleActionExample.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\EasyTouchTrigger.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickBase.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickDrag.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickEnterOverExist.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickLongTap.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickPinch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickSwipe.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTap.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTwist.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\BaseFinger.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\ECamera.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouch.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouchInput.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\Finger.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\Gesture.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Engine\TwoFingerGesture.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Component\ETCSetDirectActionTransform.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonInputUI.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonUIEvent.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIEvent.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIInput.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\DPadClassicalTime\DPadParameterUI.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\FPSPlayerControl.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\ImpactEffect.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\JoystickParameter\AxisXUi.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\LoadLevelScript.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\TouchPad-Event-Input\TouchPadUIEvent.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimation.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimationDungeon.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Examples\_Medias\SliderText.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ComponentExtensions.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCArea.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCAxis.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCBase.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCButton.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCDPad.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCInput.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCJoystick.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scenes\Tests\DistanceFogStatic\DistanceFogStatic.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\CameraOverlay.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\CubeMover.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\CustomLightingManager.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\DirectionalLightManager.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\DisableRendererOnMouseDown.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\DistanceLight.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\EditModeGridSnap.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\EnableCameraDepthTexture.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\Fps.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\FrameRate.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MarvelousBloom.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\OceanCreator.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\ObjectRotator.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\OceanWaver.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\ScreenTextureBlend.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\SimpleRotator.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\Splasher.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\UVHeightGenerator.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\UVLayoutGenerator.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Constant.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Enum.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_IconUtility.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_SceneMeshRender.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
-    <Compile Include="Assets\Scripts\AttackCtrl.cs" />
-    <Compile Include="Assets\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\Scripts\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\Data.cs" />
-    <Compile Include="Assets\Scripts\DoorCtrl.cs" />
-    <Compile Include="Assets\Scripts\EnemyCtrl.cs" />
-    <Compile Include="Assets\Scripts\EnterPlaceCtrl.cs" />
-    <Compile Include="Assets\Scripts\Enums.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Network.cs" />
-    <Compile Include="Assets\Scripts\NetworkManager.cs" />
-    <Compile Include="Assets\Scripts\NetworkTest.cs" />
-    <Compile Include="Assets\Scripts\OffsetScrollCtrl.cs" />
-    <Compile Include="Assets\Scripts\PhysicsMoveCtrl.cs" />
-    <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
-    <Compile Include="Assets\Scripts\State.cs" />
-    <Compile Include="Assets\Scripts\StationCtrl.cs" />
-    <Compile Include="Assets\Scripts\SubwayCtrl.cs" />
-    <Compile Include="Assets\Scripts\SubwayManager.cs" />
-    <Compile Include="Assets\Scripts\TimeManager.cs" />
-    <Compile Include="Assets\Scripts\TransparencyAnimCtrl.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\AttackCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\Data.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\DoorCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\EnemyCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\EnterPlaceCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\Enums.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\GameManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\Network.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\NetworkTest.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\OffsetScrollCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\PhysicsMoveCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\PlayerCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\State.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\StationCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\SubwayCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\SubwayManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\TimeManager.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\TransparencyAnimCtrl.cs" />
+    <Compile Include="Assets\MateroChaser\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\DMAttackCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMCameraCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMChangeColor.cs" />
+    <Compile Include="Assets\Scripts\DMEnemyCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\DMPassengerCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMPlayerCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMState.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\AutoSelect\MultiLayerUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\AdvancedExamples\MultiCamera\MultiCameraUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\CubeSelect.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RTSExample\RTSCamera.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\Ball.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\BallRunPlayer.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\GameExemple\RunBall\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\LoadExamples.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\FingerTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\MultiFinger\MutliFingersScreenTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DoubleTapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\DragMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\LongTapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\Swipe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\OneFinger\TouchMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\PinchMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TooglePickMethodUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwistMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDoubleTapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoDragMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoLongTapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoSwipe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTapMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\SimpleExamples\TwoFingers\TwoTouchMe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\ETWindow.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\GlobalEasyTouchEvent.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UICompatibility.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UICompatibility\UIWindow.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIDrag.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UIPinch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\4.X\UnityUI\UITwistPinch\UITwist.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\RTS_NewSyntaxe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Examples\5.X new features\Script\SimpleActionExample.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\EasyTouchTrigger.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickBase.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickDrag.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickEnterOverExist.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickLongTap.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickPinch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickSwipe.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTap.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Components\QuickTwist.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\BaseFinger.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\ECamera.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouch.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\EasyTouchInput.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\Finger.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\Gesture.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Engine\TwoFingerGesture.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Component\ETCSetDirectActionTransform.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonInputUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\Button-Event-Input\ButtonUIEvent.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIEvent.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\ControlEventInput\ControlUIInput.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\DPadClassicalTime\DPadParameterUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\FPSPlayerControl.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\FPSExample\ImpactEffect.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\JoystickParameter\AxisXUi.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\LoadLevelScript.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 1.X\TouchPad-Event-Input\TouchPadUIEvent.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimation.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\Version 2.X_New Features\Script\CharacterAnimationDungeon.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Examples\_Medias\SliderText.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ComponentExtensions.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCArea.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCAxis.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCBase.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCButton.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCDPad.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCInput.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCJoystick.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTButton.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTToggle.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scenes\Tests\DistanceFogStatic\DistanceFogStatic.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\CameraOverlay.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\CubeMover.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\CustomLightingManager.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\DirectionalLightManager.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\DisableRendererOnMouseDown.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\DistanceLight.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\EditModeGridSnap.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\EnableCameraDepthTexture.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\Fps.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\FrameRate.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MarvelousBloom.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MeshTools\OceanCreator.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\ObjectRotator.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\OceanWaver.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\ScreenTextureBlend.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\SimpleRotator.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\Splasher.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\UVHeightGenerator.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\UVLayoutGenerator.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Classes\pg_Constant.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Classes\pg_Enum.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Classes\pg_IconUtility.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Classes\pg_SceneMeshRender.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Classes\pg_Util.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
-    <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
-    <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
-    <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
-    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
-    <None Include="Assets\Demigiant\DOTween\readme.txt" />
-    <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
-    <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
-    <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
-    <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
-    <None Include="Assets\EasyTouchBundle\Readme.txt" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CameraOverlay.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLighting.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingDistanceLight.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingHardFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingMaster.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimple.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLight.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLightRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFogRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFogAlpha.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\DefaultTexture.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\FlagWave.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\FloatingLeaf.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Flower.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\Bloom.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\ScreenTextureBlend.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel3Color.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientImageBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Marvelous.cginc" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OceanDepth.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OceanOpaque.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OneColor.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TextureAnimationTransparent.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TextureBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Transparent.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Transparent2.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditive.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditiveFG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Vignette.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\WaterBox.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\WaterPool.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Waterfall.shader" />
-    <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_DebugUVs.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
-    <None Include="Assets\ProCore\ProBuilder\readme.txt" />
-    <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
-    <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CameraOverlay.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLighting.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingDistanceLight.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingHardFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingMaster.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimple.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLight.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLightRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFogRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSoftFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSoftFogAlpha.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\DefaultTexture.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\FlagWave.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\FloatingLeaf.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Flower.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\ImageEffects\Bloom.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\ImageEffects\ScreenTextureBlend.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBGPixel.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBGPixel3Color.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientImageBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Marvelous.cginc" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OceanDepth.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OceanOpaque.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OneColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TextureAnimationTransparent.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TextureBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Transparent.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Transparent2.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TransparentAdditive.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TransparentAdditiveFG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Vignette.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\WaterBox.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\WaterPool.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Waterfall.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\Credits.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_DebugUVs.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

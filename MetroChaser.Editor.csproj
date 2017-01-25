@@ -118,56 +118,59 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiEditor">
-      <HintPath>Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>Assets\Demigiant\DOTween\DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenProEditor">
-      <HintPath>Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Plugins\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KDTree">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\KDTree.dll</HintPath>
-    </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
+    <Reference Include="ProBuilderEditor-Unity5">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\ProBuilderEditor-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="Triangle">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Triangle.dll</HintPath>
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\Triangle.dll</HintPath>
     </Reference>
-    <Reference Include="ProBuilderEditor-Unity5">
-      <HintPath>Assets\ProCore\ProBuilder\Editor\ProBuilderEditor-Unity5.dll</HintPath>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KDTree">
+      <HintPath>Assets\ThirdPartyAssets\ProCore\ProBuilder\Classes\ClassesLib\KDTree.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\ThirdPartyAssets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\ThirdPartyAssets\Plugins\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\ThirdPartyAssets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets\ThirdPartyAssets\JMO Assets\Editor\JMOAssets.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -177,162 +180,171 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchMenu.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchTriggerInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchWelcomeScreen.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasytouchHierachyCallBack.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\HTGuiTools.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickDragInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickEnterExitInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickLongTapInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickPinchInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickSwipeInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTapInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTouchInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTwistInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAreaInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAxisInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCButtonInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
-    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Editor\CustomLightingMasterGUI.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\Editor\UVHeightGeneratorEditor.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\Editor\UVLayoutGeneratorEditor.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshGrid.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshTools.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshUtils.cs" />
-    <Compile Include="Assets\MarvelousTechniques\Scripts\MeshTools\Editor\Quad.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\CustomAction.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\EditorCallbackViewer.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\RenameNewObjects.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Editor\SetCustomUnwrapParams.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\About\Editor\pb_AboutWindow.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ExportObj.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_GenerateUV2.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_MakeMeshAsset.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ProBuilderize.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_BridgeEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConformNormals.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConnectEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_DetachDeleteFace.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ExtrudeElement.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipEdge.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipNormals.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FreezeTransform.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_MergeFaces.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_SetPivot.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_Triangulate.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_VertexMergeWeld.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_CleanLeakedMeshes.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ForceSceneRefresh.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RemoveDegenerateTris.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairColors.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairMeshReferences.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairUV.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ResetEntityMaterials.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_EdgeSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_ExpandSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_InvertSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_MaterialSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_BooleanInterface.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_MaterialSelection.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\MenuItems\Window\pb_ProBuilderMenuItems.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_MenuItems.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ParameterWindow.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
-    <Compile Include="Assets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchMenu.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchTriggerInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchWelcomeScreen.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasytouchHierachyCallBack.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\HTGuiTools.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickDragInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickEnterExitInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickLongTapInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickPinchInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickSwipeInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTapInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTouchInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTwistInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAreaInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAxisInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCButtonInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Editor\CustomLightingMasterGUI.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\Editor\UVHeightGeneratorEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\Editor\UVLayoutGeneratorEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshGrid.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshTools.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MeshTools\Editor\MeshUtils.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\MarvelousTechniques\Scripts\MeshTools\Editor\Quad.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Editor\CustomAction.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Editor\EditorCallbackViewer.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Editor\RenameNewObjects.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Editor\SetCustomUnwrapParams.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\Editor\pb_AboutWindow.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ExportObj.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_GenerateUV2.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_MakeMeshAsset.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_ProBuilderize.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Actions\pb_StripProBuilderScripts.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_BridgeEdges.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConformNormals.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ConnectEdges.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_DetachDeleteFace.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_ExtrudeElement.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipEdge.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FlipNormals.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_FreezeTransform.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_MergeFaces.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_SetPivot.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_Triangulate.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Geometry\pb_VertexMergeWeld.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_CleanLeakedMeshes.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ForceSceneRefresh.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RemoveDegenerateTris.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairColors.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairMeshReferences.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_RepairUV.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Repair\pb_ResetEntityMaterials.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_EdgeSelection.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_ExpandSelection.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_InvertSelection.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Selection\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_BooleanInterface.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Tools\pb_MaterialSelection.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\MenuItems\Window\pb_ProBuilderMenuItems.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\pb_MenuItems.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Editor\pg_Editor.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Editor\pg_ParameterWindow.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
+    <Compile Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Editor\pg_ToggleContent.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
-    <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
-    <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
-    <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
-    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
-    <None Include="Assets\Demigiant\DOTween\readme.txt" />
-    <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
-    <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
-    <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
-    <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
-    <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
-    <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
-    <None Include="Assets\EasyTouchBundle\Readme.txt" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CameraOverlay.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLighting.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingDistanceLight.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingHardFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingMaster.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimple.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLight.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLightRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFogRS.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFog.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\CustomLightingSoftFogAlpha.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\DefaultTexture.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\FlagWave.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\FloatingLeaf.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Flower.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\Bloom.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\ImageEffects\ScreenTextureBlend.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientBGPixel3Color.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\LinearGradientImageBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Marvelous.cginc" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OceanDepth.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OceanOpaque.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\OneColor.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TextureAnimationTransparent.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TextureBG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Transparent.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Transparent2.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditive.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\TransparentAdditiveFG.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Vignette.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\WaterBox.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\WaterPool.shader" />
-    <None Include="Assets\MarvelousTechniques\Shaders\Waterfall.shader" />
-    <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_DebugUVs.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
-    <None Include="Assets\ProCore\ProBuilder\readme.txt" />
-    <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
-    <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+    <None Include="Assets\ThirdPartyAssets\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
+    <None Include="Assets\ThirdPartyAssets\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\ThirdPartyAssets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CameraOverlay.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLighting.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingDistanceLight.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingHardFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingMaster.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimple.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLight.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleDistanceLightRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSimpleSoftFogRS.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSoftFog.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\CustomLightingSoftFogAlpha.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\DefaultTexture.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\FlagWave.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\FloatingLeaf.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Flower.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\ImageEffects\Bloom.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\ImageEffects\ScreenTextureBlend.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBGPixel.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientBGPixel3Color.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\LinearGradientImageBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Marvelous.cginc" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OceanDepth.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OceanOpaque.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\OneColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TextureAnimationTransparent.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TextureBG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Transparent.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Transparent2.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TransparentAdditive.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\TransparentAdditiveFG.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Vignette.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\WaterBox.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\WaterPool.shader" />
+    <None Include="Assets\ThirdPartyAssets\MarvelousTechniques\Shaders\Waterfall.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\Credits.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_DebugUVs.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProBuilder\readme.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+    <None Include="Assets\ThirdPartyAssets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
