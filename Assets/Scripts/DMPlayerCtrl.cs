@@ -10,6 +10,8 @@ public class DMPlayerCtrl : MonoBehaviour {
         set { mMacAddress = value; }
     }
 
+    MeshRenderer[] arrModelRenderer;
+
     Transform modelTransform;
     public Transform ModelTransform
     {
@@ -25,19 +27,41 @@ public class DMPlayerCtrl : MonoBehaviour {
     public GameObject hitParticle;
     public GameObject respawnParticle;
 
-    ePlayerState state = ePlayerState.None;
+    public eUnitState state = eUnitState.None;
+
+    public float respawnDelay = 2f;
 
     // Use this for initialization
     void Start () {
         modelTransform = transform.FindChild("Model");
+        arrModelRenderer = GetComponentsInChildren<MeshRenderer>();
         attackCtrl = GetComponent<DMAttackCtrl>();
 
-        state = ePlayerState.PlayerInitialization;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
 
+    // Update is called once per frame
+    void Update () {
+
+    }
+
+    public void Init()
+    {
+        state = eUnitState.UnitInitialization;
+        foreach (var item in arrModelRenderer)
+        {
+            item.enabled = false;
+        }
+    }
+
+    public void Respawn()
+    {
+        StartCoroutine(CoRespawn());
+    }
+
+    IEnumerator CoRespawn()
+    {
+
+        yield return new WaitForSeconds(respawnDelay);
+
+    }
 }

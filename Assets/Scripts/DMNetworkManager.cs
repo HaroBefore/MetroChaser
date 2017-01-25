@@ -153,6 +153,15 @@ public class DMNetworkManager : MonoBehaviour {
                     
                 }
                 break;
+            case eNetworkMsg.NetworkAttackPlayer:
+                {
+#if UNITY_EDITOR
+                    Debug.Log("Send AttackPlayer");
+#endif
+                    data["msgType"] = (int)eNetworkMsg.NetworkAttackPlayer;
+                    data["attackUser"] = owner.MacAddress;
+                }
+                break;
             case eNetworkMsg.NetworkHitPlayer:
                 {
 #if UNITY_EDITOR
@@ -266,6 +275,18 @@ public class DMNetworkManager : MonoBehaviour {
                             Debug.Log("Receive InitInfoRes");
 #endif
 
+                        }
+                        break;
+                    case eNetworkMsg.NetworkAttackPlayer:
+                        {
+                            for (int i = 0; i < enemyList.Count; i++)
+                            {
+                                if(enemyList[i].MacAddress == msg["attackUser"].ToString())
+                                {
+                                    enemyList[i].attackCtrl.Attack();
+                                    break;
+                                }
+                            }
                         }
                         break;
                     case eNetworkMsg.NetworkHitPlayer:

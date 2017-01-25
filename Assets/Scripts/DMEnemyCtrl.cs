@@ -49,6 +49,8 @@ public class DMEnemyCtrl : MonoBehaviour {
     [HideInInspector]
     public bool isRespawning = false;
 
+    eUnitState state = eUnitState.None;
+
     private void Awake()
     {
         posQueue = new Queue<Vector3>();

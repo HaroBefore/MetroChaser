@@ -40,5 +40,7 @@ public enum eNetworkMsg
     NetworkPlaying,
     NetworkInitInfoReq,
     NetworkInitInfoRes,
+    NetworkAttackPlayer,
     NetworkHitPlayer,
+
 }

@@ -9,25 +9,32 @@ public class DMAttackCtrl : MonoBehaviour {
     public GameObject attackParticle;
     [HideInInspector]
     public DMEnemyCtrl lastHitEnemy = null;
-    DMPlayerCtrl playerCtrl;
+
+    public bool isPlayer = false;
 
 	// Use this for initialization
 	void Start ()
     {
-        playerCtrl = GetComponent<DMPlayerCtrl>();
     }   
 
     public void Attack()
     {
-        if(isAttackAble)
+        if(gameObject.activeSelf)
         {
-            Debug.Log("Attack");
-            StartCoroutine(CoAttack());
+            if (isAttackAble)
+            {
+                Debug.Log("Attack");
+                StartCoroutine(CoAttack());
+            }
         }
     }
 
     IEnumerator CoAttack()
     {
+        if (isPlayer)
+            DMNetworkManager.Instance.OnSendMsg(eNetworkMsg.NetworkAttackPlayer);
+
+        Debug.Log("attack");
         isAttackAble = false;
         attackParticle.SetActive(true);
         attackParticle.GetComponent<Collider>().enabled = true;
@@ -40,21 +47,32 @@ public class DMAttackCtrl : MonoBehaviour {
 
     void OnTriggerEnter(Collider coll)
     {
-        if(coll.CompareTag("Enemy"))
+        if(isPlayer)
         {
-            DMEnemyCtrl enemy = coll.GetComponent<DMEnemyCtrl>();
-            lastHitEnemy = enemy;
-            if(lastHitEnemy != null)
+            if (coll.CompareTag("Enemy"))
             {
-                
-                DMNetworkManager.Instance.OnSendMsg(eNetworkMsg.NetworkHitPlayer);
+                DMEnemyCtrl enemy = coll.GetComponent<DMEnemyCtrl>();
+                lastHitEnemy = enemy;
+                if (lastHitEnemy != null)
+                {
+
+                    DMNetworkManager.Instance.OnSendMsg(eNetworkMsg.NetworkHitPlayer);
+                }
+            }
+
+            if (coll.CompareTag("Passenger"))
+            {
+                Debug.Log(coll.name);
+                coll.GetComponent<Rigidbody>().AddForce(Vector3.up * 300f);
             }
         }
-
-        if(coll.CompareTag("Passenger"))
+        else
         {
-            Debug.Log(coll.name);
-            coll.GetComponent<Rigidbody>().AddForce(Vector3.up * 300f);
+            if (coll.CompareTag("Passenger"))
+            {
+                Debug.Log(coll.name);
+                coll.GetComponent<Rigidbody>().AddForce(Vector3.up * 300f);
+            }
         }
     }
 }
