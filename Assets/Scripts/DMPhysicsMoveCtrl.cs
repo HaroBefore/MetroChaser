@@ -32,8 +32,10 @@ public class DMPhysicsMoveCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerCtrl.state == eUnitState.UnitPlaying)
+        if (playerCtrl.state == eUnitState.UnitPlaying)
             GetInput();
+        else
+            moveVector = Vector3.zero;
 
         if (isCanMove)
         {

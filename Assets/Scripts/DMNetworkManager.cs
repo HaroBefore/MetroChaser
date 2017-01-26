@@ -185,6 +185,17 @@ public class DMNetworkManager : MonoBehaviour {
                     owner.AttackCtrl.lastHitEnemy.Respawn();
                 }
                 break;
+            case eNetworkMsg.NetworkHitWrongPlayer:
+                {
+#if UNITY_EDITOR
+                    Debug.Log("Send HitWrongPlayer");
+#endif
+                    data["msgType"] = (int)eNetworkMsg.NetworkHitWrongPlayer;
+                    data["wrongUser"] = owner.MacAddress;
+
+                    owner.Respawn();
+                }
+                break;
             default:
                 break;
         }
@@ -319,6 +330,23 @@ public class DMNetworkManager : MonoBehaviour {
                             }
                         }
                         break;
+                    case eNetworkMsg.NetworkHitWrongPlayer:
+                        {
+                            foreach (var enemy in enemyList)
+                            {
+                                if (enemy.MacAddress == msg["wrongUser"].ToString())
+                                {
+                                    enemy.Respawn();
+                                    break;
+                                }
+                            }
+                            if (owner.MacAddress == msg["wrongUser"].ToString())
+                            {
+                                owner.Respawn();
+                            }
+                        }
+                        break;
+
                     default:
                         break;
                 }

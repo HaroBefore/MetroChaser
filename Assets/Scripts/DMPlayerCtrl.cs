@@ -55,7 +55,7 @@ public class DMPlayerCtrl : MonoBehaviour {
         state = eUnitState.UnitInitialization;
         SetModelActive(false);
         //transform.position = new Vector3(Random.Range(-70f, 70f), 0f, Random.Range(-70f, 70f));
-        transform.position = new Vector3(Random.Range(-10f, 10f), 0f, Random.Range(-10f, 10f));
+        transform.position = new Vector3(Random.Range(-30f, 30f), 0f, Random.Range(-30f, 30f));
         //transform.position = Vector3.zero;
         DMGameManager.Instance.ResetKillCnt();
     }
@@ -73,6 +73,7 @@ public class DMPlayerCtrl : MonoBehaviour {
         state = eUnitState.UnitRespawning;
         rigidbody.isKinematic = true;
         collider.enabled = false;
+        attackCtrl.attackParticle.Stop();
         yield return new WaitForSeconds(respawnDelay);
         SetModelActive(true);
         rigidbody.isKinematic = false;

@@ -6,16 +6,12 @@ public class DMAttackCtrl : MonoBehaviour {
     public float coolTime;
 
     public bool isAttackAble = true;
-    public GameObject attackParticle;
+    public GameObject attackParticleObject;
+    public ParticleSystem attackParticle;
     [HideInInspector]
     public DMEnemyCtrl lastHitEnemy = null;
 
     public bool isPlayer = false;
-
-	// Use this for initialization
-	void Start ()
-    {
-    }   
 
     public void Attack()
     {
@@ -36,12 +32,12 @@ public class DMAttackCtrl : MonoBehaviour {
 
         Debug.Log("attack");
         isAttackAble = false;
-        attackParticle.SetActive(true);
-        attackParticle.GetComponent<Collider>().enabled = true;
+        attackParticleObject.SetActive(true);
+        attackParticleObject.GetComponent<Collider>().enabled = true;
         yield return null;
-        attackParticle.GetComponent<Collider>().enabled = false;
+        attackParticleObject.GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(coolTime);
-        attackParticle.SetActive(false);
+        attackParticleObject.SetActive(false);
         isAttackAble = true;
     }
 
@@ -65,6 +61,7 @@ public class DMAttackCtrl : MonoBehaviour {
             {
                 Debug.Log(coll.name);
                 coll.GetComponent<Rigidbody>().AddForce(Vector3.up * 300f);
+                DMNetworkManager.Instance.OnSendMsg(eNetworkMsg.NetworkHitWrongPlayer);
             }
         }
         else
