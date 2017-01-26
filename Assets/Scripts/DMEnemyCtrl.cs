@@ -10,6 +10,8 @@ public class DMEnemyCtrl : MonoBehaviour {
         set { mMacAddress = value; }
     }
 
+    new Collider collider;
+
     Transform modelTransform;
     public Transform ModelTransform
     {
@@ -51,6 +53,10 @@ public class DMEnemyCtrl : MonoBehaviour {
 
     eUnitState state = eUnitState.None;
 
+    MeshRenderer[] arrModelRenderer;
+
+    public float respawnDelay = 2f;
+
     private void Awake()
     {
         posQueue = new Queue<Vector3>();
@@ -59,6 +65,8 @@ public class DMEnemyCtrl : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        collider = GetComponent<Collider>();
+        arrModelRenderer = GetComponentsInChildren<MeshRenderer>();
         attackCtrl = GetComponent<DMAttackCtrl>();
         modelTransform = transform.FindChild("Model");
         rigidbody = GetComponent<Rigidbody>();
@@ -121,5 +129,41 @@ public class DMEnemyCtrl : MonoBehaviour {
     {
         posQueue.Enqueue(new Vector3(x, 0f, z));
         yAngleQueue.Enqueue(yAngle);
+    }
+
+    public void Init()
+    {
+        state = eUnitState.UnitInitialization;
+        SetModelActive(false);
+        //transform.position = new Vector3(Random.Range(-70f, 70f), 0f, Random.Range(-70f, 70f));
+        transform.position = Vector3.zero;
+    }
+
+    public void Respawn()
+    {
+        Debug.Log("Respawning!!");
+        if (state != eUnitState.UnitRespawning)
+            StartCoroutine(CoRespawn());
+    }
+
+    IEnumerator CoRespawn()
+    {
+        Init();
+        state = eUnitState.UnitRespawning;
+        rigidbody.isKinematic = true;
+        collider.enabled = false;
+        yield return new WaitForSeconds(respawnDelay);
+        SetModelActive(true);
+        rigidbody.isKinematic = false;
+        collider.enabled = true;
+        state = eUnitState.UnitPlaying;
+    }
+
+    public void SetModelActive(bool isActive)
+    {
+        foreach (var item in arrModelRenderer)
+        {
+            item.enabled = isActive;
+        }
     }
 }

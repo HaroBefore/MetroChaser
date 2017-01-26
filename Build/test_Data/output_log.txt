@@ -43,7 +43,7 @@ Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_Data\Managed\pb_Stl.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_Data\Managed\Triangle.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_Data\Managed\Triangle.dll into Unity Child Domain
-- Completed reload, in  0.400 seconds
+- Completed reload, in  0.452 seconds
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0

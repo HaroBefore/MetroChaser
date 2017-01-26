@@ -15,6 +15,11 @@ public class DMNetworkManager : MonoBehaviour {
     DMPlayerCtrl owner;
     List<DMEnemyCtrl> enemyList;
     public GameObject enemyPrefab;
+    string macAddress = "";
+    public string MacAddress
+    {
+        get { return macAddress; }
+    }
 
     Dictionary<string, Queue<JsonData>> msgMap;
     bool isReceiveInitData = false;
@@ -29,6 +34,8 @@ public class DMNetworkManager : MonoBehaviour {
         msgMap = new Dictionary<string, Queue<JsonData>>();
         network = GetComponent<Network>();
         owner = GameObject.Find("Player").GetComponent<DMPlayerCtrl>();
+        macAddress = network.MacAddress;
+        owner.MacAddress = MacAddress;
         enemyList = new List<DMEnemyCtrl>();
 
         network.EventUserMsg += OnUserMsg;
@@ -114,6 +121,7 @@ public class DMNetworkManager : MonoBehaviour {
                     Debug.Log("Send Login");
 #endif
                     data["msgType"] = (int)eNetworkMsg.NetworkLogin;
+                    owner.Respawn();
                 }
                 break;
             case eNetworkMsg.NetworkLogout:
@@ -159,7 +167,11 @@ public class DMNetworkManager : MonoBehaviour {
                     Debug.Log("Send AttackPlayer");
 #endif
                     data["msgType"] = (int)eNetworkMsg.NetworkAttackPlayer;
+                    string macAdd = owner.MacAddress;
+                    Debug.Log(macAdd);
                     data["attackUser"] = owner.MacAddress;
+                    string str = data["attackUser"].ToString();
+                    Debug.Log(str);
                 }
                 break;
             case eNetworkMsg.NetworkHitPlayer:
@@ -169,6 +181,8 @@ public class DMNetworkManager : MonoBehaviour {
 #endif
                     data["msgType"] = (int)eNetworkMsg.NetworkHitPlayer;
                     data["hitUser"] = owner.AttackCtrl.lastHitEnemy.MacAddress;
+
+                    owner.AttackCtrl.lastHitEnemy.Respawn();
                 }
                 break;
             default:
@@ -208,7 +222,6 @@ public class DMNetworkManager : MonoBehaviour {
                             {
                                 break;
                             }
-
                             OnSendMsg(eNetworkMsg.NetworkInitInfoReq);
                         }
                         break;
@@ -281,7 +294,8 @@ public class DMNetworkManager : MonoBehaviour {
                         {
                             for (int i = 0; i < enemyList.Count; i++)
                             {
-                                if(enemyList[i].MacAddress == msg["attackUser"].ToString())
+                                string strMac = msg["attackUser"].ToString();
+                                if (enemyList[i].MacAddress == strMac)
                                 {
                                     enemyList[i].attackCtrl.Attack();
                                     break;
@@ -291,7 +305,18 @@ public class DMNetworkManager : MonoBehaviour {
                         break;
                     case eNetworkMsg.NetworkHitPlayer:
                         {
-
+                            foreach (var enemy in enemyList)
+                            {
+                                if(enemy.MacAddress == msg["hitUser"].ToString())
+                                {
+                                    enemy.Respawn();
+                                    break;
+                                }
+                            }
+                            if(owner.MacAddress == msg["hitUser"].ToString())
+                            {
+                                owner.Respawn();
+                            }
                         }
                         break;
                     default:

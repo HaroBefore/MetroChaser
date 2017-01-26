@@ -51,6 +51,7 @@ public class DMAttackCtrl : MonoBehaviour {
         {
             if (coll.CompareTag("Enemy"))
             {
+                DMGameManager.Instance.AddKillCnt();
                 DMEnemyCtrl enemy = coll.GetComponent<DMEnemyCtrl>();
                 lastHitEnemy = enemy;
                 if (lastHitEnemy != null)

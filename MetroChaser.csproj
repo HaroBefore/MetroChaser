@@ -73,12 +73,6 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
     <Reference Include="DemiLib">
       <HintPath>Assets\ThirdPartyAssets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
@@ -146,6 +140,7 @@
     <Compile Include="Assets\Scripts\DMCameraCtrl.cs" />
     <Compile Include="Assets\Scripts\DMChangeColor.cs" />
     <Compile Include="Assets\Scripts\DMEnemyCtrl.cs" />
+    <Compile Include="Assets\Scripts\DMGameManager.cs" />
     <Compile Include="Assets\Scripts\DMNetworkManager.cs" />
     <Compile Include="Assets\Scripts\DMPassengerCtrl.cs" />
     <Compile Include="Assets\Scripts\DMPhysicsMoveCtrl.cs" />

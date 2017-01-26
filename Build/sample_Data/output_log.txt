@@ -17,32 +17,32 @@ Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sampl
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll (this message is harmless)
 Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll into Unity Child Domain
-Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll (this message is harmless)
-Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll into Unity Child Domain
 - Completed reload, in  0.054 seconds
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.dll (this message is harmless)
@@ -50,7 +50,84 @@ desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.013391 ms
+UnloadTime: 1.046597 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4f00 -> priority: 1 
+  Thread -> id: 3364 -> priority: 1 
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7619
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+CoLogin
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<RI> Initialized touch support.
+UnloadTime: 1.091274 ms
 ConnectServer
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -61,8 +138,8 @@ OnOpen
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 285c -> priority: 1 
-  Thread -> id: e8c -> priority: 1 
+  Thread -> id: 4fe8 -> priority: 1 
+  Thread -> id: 315c -> priority: 1 
 CoLogin
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -71,51 +148,11 @@ Login
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Login
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
+Respawning!!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 StateEnemyIdle Enter
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -135,83 +172,11 @@ StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 StateEnemyIdle Exit
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 StateEnemyMoving Enter
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -223,47 +188,7 @@ StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
+StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -283,75 +208,11 @@ StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 StateEnemyIdle Exit
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 StateEnemyMoving Enter
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Send Playing
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -363,31 +224,470 @@ StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+Attack
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+attack
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+Respawning!!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+Attack
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Send Playing
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7619
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\DOTweenPro.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\KDTree.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll (this message is harmless)
+Loading E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Triangle.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.086444 ms
+ConnectServer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: E:\Projects\UnityProjects\MetroChaser\MetroChaser\Build\sample_Data\Managed\Mono.Security.dll (this message is harmless)
+OnOpen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4a30 -> priority: 1 
+  Thread -> id: 4a90 -> priority: 1 
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CoLogin
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+c44cd3ec-0c12-4ed3-bef5-ef85283b5d86
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.geA.cpp Line
+ :
+ 51)na
+meStCateuEnesmyve/unitntebu
+i
+(Filename: C:/bnerldsd/ave/uonity/tbui/De/arBtifacts/generateLd/common/
+
+runtime/DebugBindings.gen.cpp Lanttack
+ 
+
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7278845c-48c6-4734-b258-0cb8a415ddc9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7278845c-48c6-4734-b258-0cb8a415ddc9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+attack
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Respawning!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyMoving Exit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StateEnemyIdle Enter
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
